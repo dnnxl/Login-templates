@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.net.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="465.0" style="-fx-background-color: #c4c4d2;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simple_login_2.Login">
+   <children>
+      <Pane layoutX="63.0" layoutY="60.0" prefHeight="587.0" prefWidth="339.0" style="-fx-background-color: #fff; -fx-background-radius: 10px;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label layoutX="134.0" layoutY="129.0" text="Log in">
+               <font>
+                  <Font name="SansSerif Regular" size="29.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="user_textfield" focusColor="#1306d1" labelFloat="true" layoutX="66.0" layoutY="217.0" maxWidth="257.0" minWidth="196.0" prefHeight="31.0" prefWidth="216.0" promptText="Username" />
+            <JFXPasswordField fx:id="password_textfield" focusColor="#5307fa" labelFloat="true" layoutX="66.0" layoutY="294.0" maxWidth="257.0" minWidth="196.0" prefHeight="31.0" prefWidth="216.0" promptText="Password" />
+            <Label alignment="CENTER" layoutX="158.0" layoutY="343.0" prefHeight="31.0" prefWidth="141.0" text="Forgot password?" textAlignment="CENTER" textFill="#1900fe" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXButton id="signIn_button" fx:id="signIn_button" buttonType="RAISED" layoutX="139.0" layoutY="399.0" onAction="#signIn" prefHeight="41.0" prefWidth="157.0" ripplerFill="WHITE" style="-fx-background-color: #1900fe;" text="Log in" textFill="WHITE" />
+            <JFXButton id="signIn_button" fx:id="reset_button" buttonType="RAISED" layoutX="59.0" layoutY="399.0" onAction="#reset" prefHeight="41.0" prefWidth="73.0" ripplerFill="BLACK" style="-fx-background-color: #ffffff;" text="Reset" />
+            <Label layoutX="66.0" layoutY="502.0" text="Don't have an account?">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="184.0" layoutY="495.0" prefHeight="31.0" prefWidth="141.0" text="Sign up" textAlignment="CENTER" textFill="#1900fe" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="73.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@book_icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="117.0" layoutY="41.0" text="Contactbook" textFill="#1900fe">
+               <font>
+                  <Font name="AR DELANEY" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
