@@ -6,5 +6,10 @@ This repository is created to save all the Login templates made it with the goal
 Simple logins made it using JavaFX
 
 <p align="center">
-  <img src="Simple login/demo/demo_sign_in_2.gif" width="338" height="350">
+  <img src="Simple login/demo/demo_sign_in_2.gif" width="238" height="350">
+</p>
+
+## Simple login 
+<p align="center">
+  <img src="Simple login/demo/demo_sign_in.gif" width="538" height="350">
 </p>
